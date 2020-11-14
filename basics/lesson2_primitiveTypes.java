@@ -35,8 +35,10 @@ public class lesson2_primitiveTypes {
 
 		String[] strarray = {"k", "1", "2", "3"};
 		// System.out.println(strarray[strarray.length - 1]);
+		System.out.println(strarray);
+		// System.out.println(args.length);
 
-		System.out.println(args.length);
+		// int[] bigarray = new int[50000000000000000000000000000000000000000000000000];
 	}
 }
 
@@ -50,12 +52,21 @@ binary can't represent certain numbers so it will round; for exact numbers(money
 
 -boolean: boolean
 
--String: not primitive data type, is a class; null ≠ empty string(almost like value type)
+-String: not primitive data type, is a class; null ≠ empty string(almost like value type); can be concatenated with other strings or integers
 
 4 MINOR TYPES
 -float: smaller version of double(smaller range); end with letter f or FS
 
 -long: bigger version of int(higher range)
+
 -short: smaller version of int(lower range)
+
 -byte: smaller version of int(lower lower range)
+
 -char: ONE CHARACTER(letter or number)*/
+
+
+
+
+
+
