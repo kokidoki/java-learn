@@ -35,10 +35,22 @@ public class lesson2_primitiveTypes {
 
 		String[] strarray = {"k", "1", "2", "3"};
 		// System.out.println(strarray[strarray.length - 1]);
-		System.out.println(strarray);
+		// System.out.println(strarray);
 		// System.out.println(args.length);
 
 		// int[] bigarray = new int[50000000000000000000000000000000000000000000000000];
+
+
+		// WRAPPER TYPE
+		// Each primitive type has a wrapper class with same name(except capitalized) that you can use to make objects
+		Long lablab = new Long(978882541554l);
+		System.out.println(lablab);
+
+		long lakoocha = 978882541554l;
+		System.out.println(lakoocha);
+
+		System.out.println(lablab.toString());
+		System.out.println(Long.MAX_VALUE);
 	}
 }
 

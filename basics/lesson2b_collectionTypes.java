@@ -5,8 +5,11 @@ public class lesson2b_collectionTypes {
 
 		// ARRAYLIST
 		ArrayList<Integer> a = new ArrayList<>();
+		//WILL NOT WORK; int is not a wrapper type
+		ArrayList<int> a = new ArrayList<>();
+
 		a.add(123);
-		// System.out.println(a.get(0));
+		System.out.println(a.get(0));
 
 		ArrayList<String> s = new ArrayList<>();
 		s.add("dfkj");

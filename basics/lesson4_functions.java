@@ -45,4 +45,9 @@ public class lesson4_functions {
 	public static Double sum(Double a, Double b) {
 		return a + b;
 	}
+
+
+	// EXERCISE: WRITE METHOD TO TAKE ARRAY AND PRINT VALUES(Should be printed like ArrayList)
+	// EXERCISE: WRITE METHOD TO SHUFFLE AN ARRAY(Math.random() needed)
+	// EXERCISE: WRITE METHOD TO PRINT FIBONACCI SEQUENCE UP TO MAX VALUE
 }
