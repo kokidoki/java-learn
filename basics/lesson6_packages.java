@@ -1,7 +1,7 @@
 //DON'T FORGET TO COMPILE PACKAGE FILES
 import lesson6.Strawberry;
 import lesson6.drinks.*;
-public class lesson6_packages {
+public class Lesson6_packages {
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 

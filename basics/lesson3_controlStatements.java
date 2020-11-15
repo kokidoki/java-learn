@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class lesson3_controlStatements {
+public class Lesson3_controlStatements {
 	public static void main(String[] args) {
 		//INCREMENT OPERATORS
 		// All of these methods work on 4 basic operators(+, -, *, /)

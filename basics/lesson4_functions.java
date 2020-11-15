@@ -1,4 +1,4 @@
-public class lesson4_functions {
+public class Lesson4_functions {
 	public static void main(String[] args) {
 		//JAVA HAS NO FUNCTIONS — ONLY METHODS(METHODS ARE ALWAYS INSIDE CLASS)
 

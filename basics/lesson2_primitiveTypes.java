@@ -1,4 +1,4 @@
-public class lesson2_primitiveTypes {
+public class Lesson2_primitiveTypes {
 	public static void main(String[] args) {
 		int i = 8386;
 		// System.out.println(1 + (2 - 3) * 4 / 5);

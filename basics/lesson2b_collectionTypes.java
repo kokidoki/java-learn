@@ -1,5 +1,5 @@
 import java.util.*;
-public class lesson2b_collectionTypes {
+public class Lesson2b_collectionTypes {
 	public static void main(String[] args) {
 		//Array is ordered, hash is unordered — uses key/value
 

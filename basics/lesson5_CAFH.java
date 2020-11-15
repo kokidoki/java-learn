@@ -1,6 +1,6 @@
 //CAFH STANDS FOR "CLASS AS FUNCTION HOLDER"
 
-public class lesson5_CAFH {
+public class Lesson5_CAFH {
 	public static void main(String[] args) {
 		MyFunctionHolder.printFancyName("ken");
 		MyFunctionHolder2.printFancyName("ken");
