@@ -2,11 +2,24 @@
 
 [Java 11 java.base](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/module-summary.html)
 
+JDK Download `https://www.oracle.com/java/technologies/javase-downloads.html`
+
+
 Edit `.bashrc` file; add following
 ```
+JDK 15
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home
 export PATH=$JAVA_HOME/bin:$PATH
+
+
+JDK 11(Long term)
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.9.jdk/Contents/Home
+export PATH=$JAVA_HOME/bin:$PATH
 ```
+
+
+RESTART TERMINAL
+
 
 Verify Java
 ```
