@@ -6,7 +6,7 @@ public class Lesson2b_collectionTypes {
 		// ARRAYLIST
 		ArrayList<Integer> a = new ArrayList<>();
 		//WILL NOT WORK; int is not a wrapper type
-		ArrayList<int> a = new ArrayList<>();
+		// ArrayList<int> a = new ArrayList<>();
 
 		a.add(123);
 		System.out.println(a.get(0));
@@ -39,5 +39,44 @@ public class Lesson2b_collectionTypes {
 		// System.out.println(hasma.get(null));
 		// System.out.println(hasma.containsKey("arg2"));
 		// System.out.println(hasma.containsKey("årg2"));
+
+
+
+
+		ArrayList<String> names = new ArrayList<>(List.of("kenni", "lilli", "daddi"));
+		System.out.println(names);
+
+		names.clear();
+		System.out.println(names);
+
+
+
+		HashMap<String, Integer> family = new HashMap<>(Map.of("Kenny", 13, "Lily", 10, "Dad", 100));
+		System.out.println(family);
+		family.clear();
+		System.out.println(family);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
