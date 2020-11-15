@@ -6,11 +6,11 @@ public class lesson4_functions {
 		// printName();
 		// printFancyName("kennì");
 		// printFancyName("¬î¬¥");
-		// printFancyFancyName("kenn", "den", 3);
+		// printFanc
+		// vacuum("k"yFancyName("kenn", "den", 3);
 		// printFancyFancyName("lil", "den", 78);
 		// walk(15);
-		// vacuum();
-		// vacuum("k");
+		// vacuum(););
 		// vacuum("k", "e", "m", "n", "y");
 		System.out.println(sum(1, 1));
 		System.out.println(sum(1.0, 2.0));
