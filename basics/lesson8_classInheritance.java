@@ -1,7 +1,7 @@
 //Java only supports single parent inheritance(can only extend once per class)
 //New keyword will instentiate/create new Instance
 //Instance/Object interchangeable
-public class lesson8_classInheritance {
+public class Lesson8_classInheritance {
 	public static void main(String[] args) {
 		Car honda = new Car("Rainbow");
 		// System.out.println(honda);
