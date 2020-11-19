@@ -1,5 +1,5 @@
 import java.util.*;
-// import Lesson10ENumType.Color.*;
+// import static Lesson10ENumType.Color.*;
 public class Lesson10ENumType {
 	public static void main(String[] args) {
 		// System.out.println(Color.BLUE);

@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Lesson2_primitiveTypes {
 	public static void main(String[] args) {
 		int i = 8386;
@@ -43,14 +45,38 @@ public class Lesson2_primitiveTypes {
 
 		// WRAPPER TYPE
 		// Each primitive type has a wrapper class with same name(except capitalized) that you can use to make objects
-		Long lablab = new Long(978882541554l);
-		System.out.println(lablab);
+		// Long lablab = new Long(978882541554l); // Will work, not recommended
+		// System.out.println(lablab);
 
 		long lakoocha = 978882541554l;
-		System.out.println(lakoocha);
+		// System.out.println(lakoocha);
 
-		System.out.println(lablab.toString());
-		System.out.println(Long.MAX_VALUE);
+		// System.out.println(lablab.toString());
+		// System.out.println(Long.MAX_VALUE);
+
+		double r = Math.random();
+		// System.out.println(r);
+		// System.out.println(Math.floor((1 + r * 10)));
+		// System.out.println((int)((1 + r * 10)));
+
+
+		int min = 1, max = 11;
+		int r2 = (int)((Math.random() * (max - min)) + min); // Min inclusive, max exclusive
+
+		int bignum = 100_000;
+		System.out.println(bignum);
+
+
+		int[] bigarray = new int[10_000];
+		bigarray[5000] = 1;
+
+		String breakfast = "Pork Bun";
+		System.out.println(Arrays.asList(breakfast.split(" ")));
+		String[] words = breakfast.split(" ");
+		System.out.println(String.join("*", words));
+		System.out.println(breakfast.substring(0, 4));
+		System.out.println(breakfast.indexOf("Bun"));
+		System.out.println(breakfast.toCharArray()[0]);
 	}
 }
 
