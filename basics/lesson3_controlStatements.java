@@ -48,6 +48,11 @@ public class Lesson3_controlStatements {
 		// 	System.out.println("I am a falsef");
 		// }
 
+		// STRING COMPARISON
+		String foo = "bar";
+		if (foo.equals("bar")) {
+			System.out.println("Equal!");
+		}
 
 
 		//IF & ELSIF
@@ -81,7 +86,7 @@ public class Lesson3_controlStatements {
 		// 	System.out.println(food);
 		// }
 
-		
+
 
 
 
@@ -115,29 +120,3 @@ public class Lesson3_controlStatements {
 
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
