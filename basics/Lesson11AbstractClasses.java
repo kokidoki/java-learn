@@ -33,7 +33,7 @@ public class Lesson11AbstractClasses {
   }
 
 
-  abstract public static class Engine {
+  abstract public static class Engine { // Abstract can hold 0+ abstract methods(can hold normal); cannot be instantiated(has to be extended to be used)
     // public void start() {
     //   System.out.println("Start");
     // }
@@ -44,7 +44,7 @@ public class Lesson11AbstractClasses {
     abstract public void start();
     abstract public void stop();
   }
-  public static class Car extends Engine {
+  public static class Car extends Engine { // Children of Abstract class aka "Concrete classes"
     public Car() {
       super();
     }
