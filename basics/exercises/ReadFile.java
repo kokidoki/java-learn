@@ -26,15 +26,17 @@ public class ReadFile {
 		// }
 
 
-
-		try (BufferedReader bReader = new BufferedReader(new FileReader(args[0]))) {
-			String output = null;
-			do {
-				output = bReader.readLine();
-				if(output != null) {
-					System.out.println(output);
-				}
-			} while (output != null);
+		for(int i = 0; i < args.length; i++) {
+			try (BufferedReader bReader = new BufferedReader(new FileReader(args[i]))) {
+				String output = null;
+				do {
+					output = bReader.readLine();
+					if(output != null) {
+						System.out.println(output);
+					}
+				} while (output != null);
+			}
 		}
+
 	}
 }
