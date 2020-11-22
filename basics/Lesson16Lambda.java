@@ -1,6 +1,6 @@
 import java.util.*;
 import java.util.stream.*;
-public class Lesson17Lambda {
+public class Lesson16Lambda {
 	public static void main(String[] args) {
 		// Runnable task = new Runnable() {
 		// 	public void run() {
