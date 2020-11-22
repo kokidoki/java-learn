@@ -24,7 +24,7 @@ public class Lesson8_classInheritance {
 		}
 	}
 
-	public static class Truck extends Car { 
+	public static class Truck extends Car {
 		public int truckCapacity; //Unit: lbs; Default value = 0
 
 		public Truck(String initColor, int initCapacity) {
@@ -36,9 +36,9 @@ public class Lesson8_classInheritance {
 
 		}
 
-		@Override //Annotation is used to give compiler more info abt code
+		// @Override // Annotation is used to give compiler more info abt code
 		public String toFooString() { //Redifining method aka override — only do this for methods; NOT VAR
-			return "Truck color is " + this.color + "\n" + 
+			return "Truck color is " + this.color + "\n" +
 				"Truck capacity is " + this.truckCapacity;
 		}
 	}
