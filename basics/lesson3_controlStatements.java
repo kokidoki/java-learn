@@ -114,9 +114,27 @@ public class Lesson3_controlStatements {
 		for (String fruit : mappy.keySet()) {
 			System.out.println(fruit + ":" + mappy.get(fruit));
 		}
-		//EXERCISE — Create HashMap with at least 3 elementsr and print all the elements using a for loop
-		//EXERCISE — Print the alphabet in one line sperated by spaces
-		//EXERCISE — Print 10 random strings that contain alphanumeric chars(12 long)
 
+
+		//TERENARY OPERATOR
+		int testa = 1;
+		int testb = 1;
+		String output = (testa + testb == 5) ? "truthieysh" : "faulty";
+		System.out.println(output);
+
+		//SWITCH STATEMENTS
+		String answer = args[0];
+		switch (answer) { // Switch statements can accept strings, enum, int, chars, bytes, and long(all numeric types)
+			case "yes":
+				System.out.println("Match!");
+				break;
+
+			case "no":
+				System.out.println("You answered no!");
+				break;
+
+			default:
+				System.out.println("Wrong asnwer");
+		}
 	}
 }
