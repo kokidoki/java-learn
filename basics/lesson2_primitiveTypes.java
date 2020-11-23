@@ -77,6 +77,20 @@ public class Lesson2_primitiveTypes {
 		System.out.println(breakfast.substring(0, 4));
 		System.out.println(breakfast.indexOf("Bun"));
 		System.out.println(breakfast.toCharArray()[0]);
+
+
+		char a = 'a';
+		System.out.println(++a);
+
+		char[] charArray = {'h', 'e', 'l', 'l', 'o'};
+		String myString = new String(charArray);
+		System.out.println(myString);
+
+		StringBuilder sb = new StringBuilder();
+		for (int j = 0; j < 10; j++) {
+			sb.append("test " + j);
+		}
+		System.out.println(sb.toString());
 	}
 }
 
@@ -85,7 +99,7 @@ public class Lesson2_primitiveTypes {
 4 MAJOR TYPES
 -int: integer; can do basic operations(add, subtract, multiply, divide)
 
--double: decimal; can go up to 15 decimal places; can also do same operations as above; 
+-double: decimal; can go up to 15 decimal places; can also do same operations as above;
 binary can't represent certain numbers so it will round; for exact numbers(money) other type needs to be used
 
 -boolean: boolean
@@ -102,9 +116,3 @@ binary can't represent certain numbers so it will round; for exact numbers(money
 -byte: smaller version of int(lower lower range)
 
 -char: ONE CHARACTER(letter or number)*/
-
-
-
-
-
-
